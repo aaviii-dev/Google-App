@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+
+  <body class="bg-[#202124] text-white min-h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-6 py-4">
+      <div class="flex gap-6 text-sm">
+        <a href="#" class="hover:underline">About</a>
+        <a href="#" class="hover:underline">Store</a>
+      </div>
+
+      <div class="flex items-center gap-5 text-sm">
+        <a href="#" class="hover:underline">Gmail</a>
+        <a href="#" class="hover:underline">Images</a>
+
+        <!-- Apps Icon -->
+        <div class="cursor-pointer text-xl">
+          ⋮⋮
+        </div>
+
+        <!-- Profile -->
+        <div
+          class="w-10 h-10 rounded-full bg-orange-700 flex items-center justify-center font-semibold"
+        >
+          A
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main
+      class="flex-1 flex flex-col items-center justify-center -mt-24"
+    >
+      <!-- Logo -->
+      <h1 class="text-8xl font-medium mb-8">
+        Google
+      </h1>
+
+      <!-- Search Box -->
+      <div
+        class="w-full max-w-3xl h-14 bg-[#4d5156] rounded-full flex items-center px-5 hover:bg-[#5f6368]"
+      >
+        <span class="text-2xl mr-4">+</span>
+
+        <input
+          type="text"
+          placeholder="Search Google or type a URL"
+          class="flex-1 bg-transparent outline-none text-white"
+        />
+
+        <div class="flex gap-4 text-xl">
+          <span>🎤</span>
+          <span>📷</span>
+        </div>
+
+        <button
+          class="ml-4 bg-[#5f6368] px-4 py-2 rounded-full text-sm"
+        >
+          AI Mode
+        </button>
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex gap-4 mt-8">
+        <button
+          class="bg-[#303134] px-5 py-2 rounded hover:border hover:border-gray-500"
+        >
+          Google Search
+        </button>
+
+        <button
+          class="bg-[#303134] px-5 py-2 rounded hover:border hover:border-gray-500"
+        >
+          I'm Feeling Lucky
+        </button>
+      </div>
+
+      <!-- Languages -->
+      <p class="mt-8 text-sm">
+        Google offered in:
+        <span class="text-blue-400 cursor-pointer hover:underline">
+          हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી
+        </span>
+      </p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#171717]">
+      <div class="border-b border-gray-700 px-8 py-4">
+        India
+      </div>
+
+      <div
+        class="flex justify-between px-8 py-4 text-sm flex-wrap gap-4"
+      >
+        <div class="flex gap-8">
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search works</a>
+        </div>
+
+        <div class="flex gap-8">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
